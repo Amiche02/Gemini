@@ -1,0 +1,8 @@
+google-generativeai
+gradio
+pillow
+pandas
+lxml
+openpyxl
+html5lib
+beautifulsoup4
