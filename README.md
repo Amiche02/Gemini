@@ -1,76 +1,80 @@
-# Gemini: OCR et LLM pour l'Extraction de Tableaux à partir d'Images
+# Gemini: OCR and LLM for Table Extraction from Images
 
 ## Description
 
-Gemini est un outil innovant qui combine la reconnaissance optique de caractères (OCR) et un modèle de langage avancé (LLM) pour extraire et interpréter des tableaux à partir d'images. Ce projet vise à fournir une solution précise et efficace pour convertir des tableaux d'images en données structurées utilisables.
+Gemini is an innovative tool that combines Optical Character Recognition (OCR) and an advanced Language Model (LLM) to extract and interpret tables from images. This project aims to provide a precise and efficient solution for converting tables from images into structured, usable data.
 
-## Fonctionnalités
+## Features
 
-- **OCR avancé :** Utilisation de Tesseract pour la reconnaissance de texte dans les images.
-- **Modèle de langage :** Intégration du modèle Gemini pour analyser et structurer les données extraites sous forme de tableaux.
-- **Précision élevée :** Algorithmes optimisés pour améliorer la précision et la vitesse d'extraction.
-- **Polyvalence :** Capacité à traiter divers types d'images contenant des tableaux.
-- **Documentation complète :** Guide d'utilisation et documentation technique détaillée.
+- **Advanced OCR:** Utilizes Tesseract for text recognition in images.
+- **Language Model:** Integrates the Gemini model to analyze and structure the extracted data into tables.
+- **High Accuracy:** Optimized algorithms to enhance the precision and speed of extraction.
+- **Versatility:** Capable of processing various types of images containing tables.
+- **Comprehensive Documentation:** Detailed user guide and technical documentation.
 
-## Prérequis
+## Prerequisites
 
-Avant de commencer, assurez-vous d'avoir les éléments suivants installés :
+Before starting, make sure you have the following installed:
 
-- Python 3.7 ou plus récent
+- Python 3.7 or later
 - Tesseract OCR
-- Bibliothèques Python nécessaires (voir `requirements.txt`)
+- Required Python libraries (see `requirements.txt`)
 
 ## Installation
 
-1. Clonez le dépôt :
+1. Clone the repository:
     ```bash
     git clone https://github.com/Amiche02/Gemini.git
     cd Gemini
     ```
 
-2. Installez les dépendances :
+2. Install the dependencies:
     ```bash
     pip install -r requirements.txt
     ```
 
-3. Assurez-vous que Tesseract OCR est installé et configuré correctement sur votre système.
+3. Ensure that Tesseract OCR is installed and properly configured on your system.
 
-## Utilisation
+## Usage
 
-1. Placez les images contenant des tableaux dans le répertoire `input_images`.
-2. Exécutez le script principal :
+1. Place the images containing tables in the `input_images` directory.
+2. Run the main script:
     ```bash
-    python main.py
+    python app.py
     ```
-3. Les résultats seront sauvegardés dans le répertoire `output_tables` sous forme de fichiers CSV.
+or
+    ```bash
+    python sylva.py
+    ```
+3. The results will be saved in the `output_tables` directory as CSV files.
 
-## Structure du Projet
+## Project Structure
 
-- `input_images/` : Répertoire pour les images à traiter.
-- `output_tables/` : Répertoire pour les fichiers CSV générés.
-- `main.py` : Script principal pour l'extraction des tableaux.
-- `requirements.txt` : Liste des dépendances Python.
-- `README.md` : Ce fichier README.
+- `input_images/` : Directory for images to be processed.
+- `output_tables/` : Directory for generated CSV files.
+- `main.py` : Main script for table extraction.
+- `requirements.txt` : List of required Python libraries.
+- `README.md` : This README file.
 
 ## Contribution
 
-Les contributions sont les bienvenues ! Veuillez suivre ces étapes pour contribuer :
+Contributions are welcome! Please follow these steps to contribute:
 
-1. Fork le projet
-2. Créez votre branche de fonctionnalité (`git checkout -b feature/ma-fonctionnalité`)
-3. Committez vos changements (`git commit -am 'Ajoutez une fonctionnalité'`)
-4. Poussez votre branche (`git push origin feature/ma-fonctionnalité`)
-5. Ouvrez une Pull Request
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/my-feature`)
+3. Commit your changes (`git commit -am 'Add a feature'`)
+4. Push to the branch (`git push origin feature/my-feature`)
+5. Open a Pull Request
 
-## Auteurs
+## Authors
 
-- **Amiche02** - Créateur et développeur principal
+- **Amiche02** - Creator and main developer
 
-## Licence
+## License
 
-Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Remerciements
+## Acknowledgements
 
-- Merci aux développeurs de Tesseract OCR et du modèle Gemini pour leurs outils exceptionnels.
-- Remerciements à la communauté open-source pour leur soutien et leurs contributions.
+- Thanks to the developers of Tesseract OCR and the Gemini model for their exceptional tools.
+- Thanks to the open-source community for their support and contributions.
