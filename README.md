@@ -16,8 +16,8 @@ Gemini is an innovative tool that combines Optical Character Recognition (OCR) a
 
 Before starting, make sure you have the following installed:
 
-- Python 3.7 or later
-- Tesseract OCR
+- Python 3.8 or later
+- Gemini API Key
 - Required Python libraries (see `requirements.txt`)
 
 ## Installation
